@@ -1,0 +1,174 @@
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.homepage-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Roundy Rainbows Italic";
+}
+
+.homepage-wrapper h2 {
+  font-family: "Roundy Rainbows";
+  max-width: 500px;
+  font-size: 72px;
+  line-height: 83px;
+  color: #2D9CDB;
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+.homepage-wrapper .title-sub-text {
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #828282;
+  margin-bottom: 29px;
+}
+
+.homepage-wrapper .how-to-play {
+  color: #2D9CDB;
+  margin-bottom: 46px;
+}
+
+.homepage-wrapper .how-to-play i {
+  margin-right: 20px;
+}
+
+.homepage-wrapper .how-to-play a {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.homepage-wrapper .how-to-play .modal {
+  max-width: 570px;
+  text-align: center;
+  padding-top: 86px;
+  padding-bottom: 73px;
+  max-height: 677px !important;
+}
+
+.homepage-wrapper .how-to-play .modal a {
+  position: absolute;
+  font-size: 36px;
+  top: 18px;
+  right: 18px;
+}
+
+.homepage-wrapper .how-to-play .modal h4 {
+  font-family: "Roundy Rainbows";
+  margin-bottom: 16px;
+  font-size: 36px;
+  line-height: 41px;
+}
+
+.homepage-wrapper .how-to-play .modal .steps {
+  margin-bottom: 49px;
+}
+
+.homepage-wrapper .how-to-play .modal .steps p {
+  margin-bottom: 8px;
+}
+
+.homepage-wrapper .how-to-play .modal .steps p:last-child {
+  margin-bottom: 0;
+}
+
+.homepage-wrapper .how-to-play .modal p {
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 25px;
+  color: #4F4F4F;
+}
+
+.homepage-wrapper .how-to-play .modal .level {
+  max-width: 207px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.homepage-wrapper .how-to-play .modal .level p:first-child {
+  color: #2D9CDB;
+}
+
+.homepage-wrapper .how-to-play .modal .level:last-child {
+  margin-bottom: 0;
+}
+
+.homepage-wrapper #add-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homepage-wrapper #add-name input {
+  display: bock;
+  width: 336px;
+  color: #E0E0E0;
+  border: 1px solid #BDBDBD;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.homepage-wrapper #add-name a {
+  display: inline-block;
+  text-align: center;
+  width: 207px;
+  margin: auto;
+  margin-top: 25px;
+  padding: 9px 0 9px;
+  background: #2D9CDB;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.modal {
+  overflow: hidden;
+}
+/*# sourceMappingURL=main.css.map */

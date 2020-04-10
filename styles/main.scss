@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+    cursor: default;
+}
+
+@mixin navigation {
+    display: flex;
+    align-items: center;
+    font-weight: normal;
+    padding-left: 10%;
+    font-size: 36px;
+    line-height: 41px;
+    color: #2D9CDB;
+
+    i {
+        margin-right: 18.5px;
+    }
+
+    h2 {
+        font-family: "Roundy Rainbows";
+    }
+}
+
+@mixin help {
+    color: #2D9CDB;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 22px;
+
+    a {
+        margin-left: 14px;
+        font-family: "Lora";
+    }
+}
+
+.homepage-wrapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roundy Rainbows Italic";
+
+    h2 {
+        font-family: "Roundy Rainbows";
+        max-width: 500px;
+        font-size: 72px;
+        line-height: 83px;
+        color: #2D9CDB;
+        text-align: center;
+        margin-bottom: 17px;
+    }
+
+    .title-sub-text {
+        text-transform: uppercase;
+        font-family: "Open Sans";
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 33px;
+        color: #828282;
+        margin-bottom: 29px;
+    }
+
+    .how-to-play {
+        color: #2D9CDB;
+        margin-bottom: 46px;
+
+        i {
+            margin-right: 20px;
+        }
+
+        a {
+            font-family: 'Lora', serif;
+            font-style: italic;
+            font-weight: bold;
+            font-size: 17px;
+            line-height: 22px;
+        }
+
+        .modal {
+            max-width: 570px;
+            text-align: center;
+            padding-top: 86px;
+            padding-bottom: 73px;
+            max-height: 677px !important;
+
+            a {
+                position: absolute;
+                font-size: 36px;
+                top: 18px;
+                right: 18px;
+            }
+
+            h4 {
+                font-family: "Roundy Rainbows";
+                margin-bottom: 16px;
+                font-size: 36px;
+                line-height: 41px;
+            }
+            
+
+            .steps {
+                margin-bottom: 49px;
+
+                p {
+                    margin-bottom: 8px;
+                }
+
+                p:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            p {
+                font-family: "Open Sans";
+                font-size: 18px;
+                line-height: 25px;
+                color: #4F4F4F;
+            }
+
+            .level {
+                max-width: 207px;
+                margin: auto;
+                margin-bottom: 20px;
+
+                p:first-child {
+                    color: #2D9CDB;
+                }
+            }
+
+            .level:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    #add-name {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        input {
+            display: bock;
+            width: 336px;
+            color: #E0E0E0;
+            border: 1px solid #BDBDBD;
+            border-radius: 3px;
+            text-align: center;
+        }
+
+        a {
+            display: inline-block;
+            text-align: center;
+            width: 207px;
+            margin: auto;
+            margin-top: 25px;
+            padding: 9px 0 9px;
+            background: #2D9CDB;
+            border: none;
+            outline: none;
+            border-radius: 3px;
+            color: white;
+            font-family: Open Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 18px;
+            line-height: 25px;
+            text-transform: uppercase;
+            cursor: pointer;
+        }
+    }
+}
+
+.modal {
+    overflow: hidden;
+}

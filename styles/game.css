@@ -1,0 +1,373 @@
+@import url("https://fonts.googleapis.com/css?family=Lora&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0;
+  cursor: default;
+}
+
+.homepage-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Roundy Rainbows Italic";
+}
+
+.homepage-wrapper h2 {
+  font-family: "Roundy Rainbows";
+  max-width: 500px;
+  font-size: 72px;
+  line-height: 83px;
+  color: #2D9CDB;
+  text-align: center;
+  margin-bottom: 17px;
+}
+
+.homepage-wrapper .title-sub-text {
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33px;
+  color: #828282;
+  margin-bottom: 29px;
+}
+
+.homepage-wrapper .how-to-play {
+  color: #2D9CDB;
+  margin-bottom: 46px;
+}
+
+.homepage-wrapper .how-to-play i {
+  margin-right: 20px;
+}
+
+.homepage-wrapper .how-to-play a {
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 22px;
+}
+
+.homepage-wrapper .how-to-play .modal {
+  max-width: 570px;
+  text-align: center;
+  padding-top: 86px;
+  padding-bottom: 73px;
+  max-height: 677px !important;
+}
+
+.homepage-wrapper .how-to-play .modal a {
+  position: absolute;
+  font-size: 36px;
+  top: 18px;
+  right: 18px;
+}
+
+.homepage-wrapper .how-to-play .modal h4 {
+  font-family: "Roundy Rainbows";
+  margin-bottom: 16px;
+  font-size: 36px;
+  line-height: 41px;
+}
+
+.homepage-wrapper .how-to-play .modal .steps {
+  margin-bottom: 49px;
+}
+
+.homepage-wrapper .how-to-play .modal .steps p {
+  margin-bottom: 8px;
+}
+
+.homepage-wrapper .how-to-play .modal .steps p:last-child {
+  margin-bottom: 0;
+}
+
+.homepage-wrapper .how-to-play .modal p {
+  font-family: "Open Sans";
+  font-size: 18px;
+  line-height: 25px;
+  color: #4F4F4F;
+}
+
+.homepage-wrapper .how-to-play .modal .level {
+  max-width: 207px;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.homepage-wrapper .how-to-play .modal .level p:first-child {
+  color: #2D9CDB;
+}
+
+.homepage-wrapper .how-to-play .modal .level:last-child {
+  margin-bottom: 0;
+}
+
+.homepage-wrapper #add-name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.homepage-wrapper #add-name input {
+  display: bock;
+  width: 336px;
+  color: #E0E0E0;
+  border: 1px solid #BDBDBD;
+  border-radius: 3px;
+  text-align: center;
+}
+
+.homepage-wrapper #add-name button {
+  width: 207px;
+  margin: auto;
+  margin-top: 25px;
+  padding: 9px 0 9px;
+  background: #2D9CDB;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.modal {
+  overflow: hidden;
+}
+
+.navigation-wrapper {
+  padding-top: 45px;
+  padding-right: 113px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.navigation-wrapper .navigation-home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: normal;
+  padding-left: 10%;
+  font-size: 36px;
+  line-height: 41px;
+  color: #2D9CDB;
+}
+
+.navigation-wrapper .navigation-home i {
+  margin-right: 18.5px;
+}
+
+.navigation-wrapper .navigation-home h2 {
+  font-family: "Roundy Rainbows";
+}
+
+.navigation-wrapper a {
+  font-family: "Roundy Rainbows";
+  font-size: 36px;
+  line-height: 41px;
+  color: #2D9CDB;
+}
+
+.navigation-wrapper a i {
+  margin-right: 18px;
+}
+
+.game-board {
+  padding-top: 80px;
+  padding-left: 10%;
+  padding-right: 168px;
+  margin-bottom: 136px;
+  color: #2D9CDB;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.game-board .game-points-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 20%;
+}
+
+.game-board .game-points-wrapper h2 {
+  font-family: "Roundy Rainbows";
+  font-size: 36px;
+  line-height: 41px;
+  margin-bottom: 36px;
+}
+
+.game-board .game-points-wrapper .game-point {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  grid-row-gap: 10px;
+}
+
+.game-board .game-points-wrapper .game-point .point {
+  padding: 31px 0px 28px;
+  border: 3px solid #2D9CDB;
+  border-radius: 4px;
+  width: 320px;
+  text-align: center;
+}
+
+.game-board .game-points-wrapper .game-point .point h3 {
+  font-family: "Roundy Rainbows";
+  font-size: 36px;
+  line-height: 41px;
+}
+
+.game-board .game-points-wrapper .game-point .point p {
+  font-family: Open Sans;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  color: #BDBDBD;
+}
+
+.game-board .game-points-wrapper .game-point .score {
+  position: relative;
+}
+
+.game-board .game-points-wrapper .game-point .score i {
+  position: absolute;
+  top: 37px;
+  left: 41px;
+  font-size: 52px;
+  color: #F2C94C;
+  margin-right: 25px;
+}
+
+.game-board .secret-number-wrapper {
+  padding-top: 157px;
+}
+
+.game-board .secret-number-wrapper .title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 92px;
+}
+
+.game-board .secret-number-wrapper .title h2 {
+  font-family: "Roundy Rainbows";
+  font-size: 36px;
+  line-height: 41px;
+}
+
+.game-board .secret-number-wrapper .title span {
+  margin-left: 31px;
+  font-size: 96px;
+  line-height: 96px;
+  padding: 5px 30px 6px 31px;
+  border: 2px solid #BDBDBD;
+  border-radius: 50%;
+}
+
+.game-board .secret-number-wrapper .numbers-wrapper {
+  display: -ms-grid;
+  display: grid;
+  grid-row-gap: 40px;
+}
+
+.game-board .secret-number-wrapper .numbers-wrapper .numbers {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  grid-column-gap: 40px;
+}
+
+.game-board .secret-number-wrapper .numbers-wrapper .numbers div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 89px;
+  height: 89px;
+  font-size: 36px;
+  line-height: 36px;
+  border-radius: 50%;
+  background-color: black;
+  color: white;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+footer {
+  padding-left: 10%;
+  color: #2D9CDB;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 22px;
+  margin-bottom: 83px;
+}
+
+footer a {
+  margin-left: 14px;
+  font-family: "Lora";
+}
+/*# sourceMappingURL=game.css.map */

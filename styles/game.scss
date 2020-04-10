@@ -1,0 +1,145 @@
+@import "main";
+
+.navigation-wrapper {
+    padding-top: 45px;
+    padding-right: 113px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .navigation-home {
+        @include navigation;
+    }
+
+    a {
+        font-family: "Roundy Rainbows";
+        font-size: 36px;
+        line-height: 41px;
+        color: #2D9CDB;
+
+        i {
+            margin-right: 18px;
+        }
+    }
+}
+
+.game-board {
+    padding-top: 80px;
+    padding-left: 10%;
+    padding-right: 168px;
+    margin-bottom: 136px;
+    color: #2D9CDB;
+    display: flex;
+
+    .game-points-wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20%;
+
+        h2 {
+            font-family: "Roundy Rainbows";
+            font-size: 36px;
+            line-height: 41px;
+            margin-bottom: 36px;
+        }
+
+        .game-point {
+            display: grid;
+            grid-template-columns: 100%;
+            grid-row-gap: 10px;
+
+            .point {
+                padding: 31px 0px 28px;
+                border: 3px solid #2D9CDB;
+                border-radius: 4px;
+                width: 320px;
+                text-align: center;
+
+                h3 {
+                    font-family: "Roundy Rainbows";
+                    font-size: 36px;
+                    line-height: 41px;
+                }
+
+                p {
+                    font-family: Open Sans;
+                    font-weight: bold;
+                    font-size: 18px;
+                    line-height: 25px;
+                    color: #BDBDBD;
+                }
+            }
+
+            .score {
+                position: relative;
+
+                i {
+                    position: absolute;
+                    top: 37px;
+                    left: 41px;
+                    font-size: 52px;
+                    color: #F2C94C;
+                    margin-right: 25px;
+                }
+            }
+        }
+    }
+
+    .secret-number-wrapper {
+        padding-top: 157px;
+
+        .title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 92px;
+
+            h2 {
+                font-family: "Roundy Rainbows";
+                font-size: 36px;
+                line-height: 41px;
+            }
+
+            span {
+                margin-left: 31px;
+                font-size: 96px;
+                line-height: 96px;
+                padding: 5px 30px 6px 31px;
+                border: 2px solid #BDBDBD;
+                border-radius: 50%;
+            }
+        }
+
+        .numbers-wrapper {
+            display: grid;
+            grid-row-gap: 40px;
+            
+            .numbers {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                grid-column-gap: 40px;
+
+                div {
+                    display: flex;
+                    width: 89px;
+                    height: 89px;
+                    font-size: 36px;
+                    line-height: 36px;
+                    border-radius: 50%;
+                    background-color: black;
+                    color: white;
+                    align-items: center;
+                    justify-content: center;
+                    margin-bottom: 40px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+footer {
+    padding-left: 10%;
+    @include help;
+    margin-bottom: 83px;
+}

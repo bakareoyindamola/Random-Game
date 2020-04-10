@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link href="styles/main.css" rel="stylesheet" />
+    <title>Document</title>
+</head>
+<body>
+    <section class="homepage-wrapper">
+        <h2>guess The number</h2>
+        <p class="title-sub-text">a guess game</p>
+
+        <div class="how-to-play">
+            <i class="fas fa-exclamation-circle"></i>
+            <a class="modal-trigger" href="#modal1">How to Play</a>
+
+            <!-- Modal Structure -->
+            <div id="modal1" class="modal">
+                <a href="#!" class="modal-close"><i class="fas fa-times"></i></a>
+                <div class="modal-content">
+                    <div class="steps">
+                        <h4>how To Play</h4>
+                        <p>Enter your name</p>
+                        <p>Pick a difficulty</p>
+                        <p>Guess the secret number</p>
+                    </div>
+
+                    <div>
+                        <h4>difficult LEVELS</h4>
+
+                        <div class="level">
+                            <p>Easy Level</p>
+                            <p>You have 6 guess and 10 random numbers</p>
+                        </div>
+
+                        <div class="level">
+                            <p>Medium Level</p>
+                            <p>You have 4 guess and 20 random number</p>
+                        </div>
+
+                        <div class="level">
+                            <p>Hard Level</p>
+                            <p>You have 3 guess and 50 random number</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <form id="add-name">
+            <input type="text" placeholder="Enter name" />
+            <a href="home.html">start</a>
+        </form>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" integrity="sha256-U/cHDMTIHCeMcvehBv1xQ052bPSbJtbuiw4QA9cTKz0=" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
